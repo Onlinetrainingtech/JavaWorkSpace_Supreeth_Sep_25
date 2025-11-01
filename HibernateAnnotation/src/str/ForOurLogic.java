@@ -12,7 +12,7 @@ public class ForOurLogic {
 
 	public static void main(String[] args) {
 		
-StandardServiceRegistry ssr=new StandardServiceRegistryBuilder().configure("hibernate.cfg.xml").build();
+       StandardServiceRegistry ssr=new StandardServiceRegistryBuilder().configure("hibernate.cfg.xml").build();
 		
 		Metadata meta=new MetadataSources(ssr).getMetadataBuilder().build();
 		
